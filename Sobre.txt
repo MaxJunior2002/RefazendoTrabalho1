@@ -1,0 +1,4 @@
+Aqui eu refiz um trabalho feito em C em HTML, CSS e JS que tinha o enunciado: 
+" A Associação de Moradores do Bairro do Limoeiro (AMBAL) se reuniu para criar um aplicativo que facilite
+entender o aumento dos preços de produtos em supermercados, uma vez que a situação econômica das
+famílias está fragilizada no cenário de COVID-19. Isto posto, faça um programa em C que:..."

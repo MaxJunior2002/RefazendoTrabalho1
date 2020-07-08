@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="js/main.js"></script>
+        <title>Refazendo trabalhos em web</title>
+
+    </head>
+    <body>
+        <h1>Calculadora de preços AMBAL: </h1>
+        <div class="centermenu">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="topic">Preço do produto:</td>
+                        <td><input id="price" type="number" name="price"></input></td>
+                    </tr>
+                    <tr>
+                        <td class="topic">Categoria do produto:</td>
+                        <td>
+                            <select id="category" type="text">
+                                <option value="nothing">Escolha</option>
+                                <option value="1">[1] – matinais</option>
+                                <option value="2">[2] – cereais</option>
+                                <option value="3">[3] – bebidas</option>
+                            </select>    
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="topic">Situação do produto:</td>
+                        <td>
+                            <select id="situation" type="text">
+                                <option value="nothing">Escolha</option>
+                                <option value="R">[R] – precisa de refrigeração</option>
+                                <option value="N">[N] – não precisa de refrigeração</option>
+                            </select>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div id="button">
+                <button type="button" value= "resposta" onclick='resposta()'>Calcular</button>
+            </div>
+            <div class="result">
+                <div id="newprice">
+                    <p>Novo preço:</p>
+                    <h2 id="finalprice">---</h2>
+                </div>
+                <div id="classification">
+                    <p>Categoria:</p>
+                    <h2 id="finalclassification">---</h2>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
